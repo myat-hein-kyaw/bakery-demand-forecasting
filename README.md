@@ -30,3 +30,23 @@ The project also proposes an AWS-based cloud architecture for scalable data proc
 - 78 products
 - 1,037,791 production-demand observations used for machine learning
 - Chronological split: 2019–2022 for training and 2023 for testing
+
+## Models & Results
+
+The following forecasting approaches were compared:
+
+- Mean Baseline
+- Linear Regression
+- Random Forest Regression
+- Gradient Boosted Trees (GBT)
+
+### Model Performance
+
+| Model | RMSE | MAE | R² |
+|---|---:|---:|---:|
+| Mean Baseline | 45.69 | 29.27 | ~0.000 |
+| Linear Regression | 44.19 | 28.40 | 0.0647 |
+| Random Forest | 41.66 | 28.10 | 0.169 |
+| Gradient Boosted Trees | 40.49 | 28.25 | 0.215 |
+
+GBT achieved the best overall performance with the lowest RMSE and highest R², while Random Forest achieved the lowest MAE.
