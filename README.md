@@ -50,3 +50,18 @@ The following forecasting approaches were compared:
 | Gradient Boosted Trees | 40.49 | 28.25 | 0.215 |
 
 GBT achieved the best overall performance with the lowest RMSE and highest R², while Random Forest achieved the lowest MAE.
+
+## Proposed AWS Architecture
+
+The project proposes the following AWS-based workflow:
+
+Bakery Branches → Amazon S3 (Raw Data) → AWS Glue ETL → AWS Glue Data Catalog → Amazon S3 (Curated Data) → Amazon EMR with PySpark → Forecast Results → Amazon Athena → Amazon QuickSight
+
+### Security & Monitoring
+
+- IAM for access control and least-privilege permissions
+- AWS KMS for encryption key management
+- S3 Block Public Access to prevent public exposure
+- Private VPC networking for data processing
+- AWS CloudTrail for audit logging
+- Amazon CloudWatch for monitoring, logs and alerts
