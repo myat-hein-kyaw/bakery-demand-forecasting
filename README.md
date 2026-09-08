@@ -65,3 +65,9 @@ Bakery Branches → Amazon S3 (Raw Data) → AWS Glue ETL → AWS Glue Data Cata
 - Private VPC networking for data processing
 - AWS CloudTrail for audit logging
 - Amazon CloudWatch for monitoring, logs and alerts
+
+## Project Notebook
+
+View the full analysis and model development here:
+
+[Open the PySpark Demand Forecasting Notebook](./bakery_demand_forecasting.ipynb)
