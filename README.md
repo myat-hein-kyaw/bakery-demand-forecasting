@@ -69,5 +69,11 @@ Bakery Branches → Amazon S3 (Raw Data) → AWS Glue ETL → AWS Glue Data Cata
 ## Project Notebook
 
 View the full analysis and model development here:
-
 [Open the PySpark Demand Forecasting Notebook](./bakery_demand_forecasting.ipynb)
+
+## Key Findings
+
+- Gradient Boosted Trees achieved the best overall performance with RMSE 40.49 and R² 0.215.
+- Random Forest achieved the lowest MAE of 28.10.
+- Product ID was the most important model feature, followed by month and weekend status.
+- Forecast errors were higher for high-demand products and weekends.
