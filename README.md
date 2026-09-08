@@ -77,3 +77,10 @@ View the full analysis and model development here:
 - Random Forest achieved the lowest MAE of 28.10.
 - Product ID was the most important model feature, followed by month and weekend status.
 - Forecast errors were higher for high-demand products and weekends.
+
+## Limitations
+
+- Observed sales were used as a proxy for demand, so unmet demand during stockouts may not be captured.
+- The dataset did not include richer external factors such as promotions, holidays, weather or local events.
+- Branch and product identifiers were treated as numerical features, which may limit model interpretation.
+- The AWS architecture was proposed as a scalable design and was not deployed in production.
