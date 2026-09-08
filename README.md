@@ -21,3 +21,12 @@ The project also proposes an AWS-based cloud architecture for scalable data proc
 - Amazon EMR
 - Amazon Athena
 - Amazon QuickSight
+
+## Dataset & Scale
+
+- Public bakery operational dataset
+- Data covers 2019–2023
+- 35 bakery branches
+- 78 products
+- 1,037,791 production-demand observations used for machine learning
+- Chronological split: 2019–2022 for training and 2023 for testing
