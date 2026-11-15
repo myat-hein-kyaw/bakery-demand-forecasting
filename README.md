@@ -1,6 +1,6 @@
 # Bakery Demand Forecasting & Cloud Production Planning Framework
 
-A machine learning project for bakery demand forecasting using PySpark, Apache Spark and AWS cloud architecture.
+An MSc dissertation project using PySpark and Spark MLlib to analyse 1,037,791 bakery observations and compare machine learning models for demand forecasting. Gradient-Boosted Trees achieved an RMSE of 40.49 and R² of 0.215. The project also proposes an AWS analytics architecture, which was designed but not deployed.
 
 ## Project Overview
 
