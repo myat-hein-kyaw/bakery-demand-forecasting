@@ -10,13 +10,15 @@ The project also proposes an AWS-based cloud architecture for scalable data proc
 
 ## Technologies Used
 
+### Data Processing & Machine Learning
 - Python
 - PySpark
 - Apache Spark
 - Spark MLlib
-- Machine Learning
 - Google Colab
-- AWS S3
+
+### Proposed AWS Architecture (Not Deployed)
+- Amazon S3
 - AWS Glue
 - Amazon EMR
 - Amazon Athena
