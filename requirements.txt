@@ -1,0 +1,4 @@
+pyspark==4.0.3
+kagglehub
+pandas
+matplotlib
