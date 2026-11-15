@@ -71,6 +71,27 @@ Bakery Branches → Amazon S3 (Raw Data) → AWS Glue ETL → AWS Glue Data Cata
 View the full analysis and model development here:
 [Open the PySpark Demand Forecasting Notebook](./bakery_demand_forecasting.ipynb)
 
+## How to Run
+
+### Run in Google Colab
+
+1. Open `bakery_demand_forecasting.ipynb` in Google Colab using File → Open notebook → GitHub.
+2. Install the required Python dependencies in a new code cell:
+
+```python
+!pip install -q pyspark==4.0.3 kagglehub pandas matplotlib
+```
+
+3. Run the notebook cells in order, starting from dataset acquisition.
+4. KaggleHub downloads the public Bakery Challenge dataset automatically.
+5. Review the data processing, exploratory analysis, model evaluation and forecasting results.
+
+### Requirements
+
+See `requirements.txt` for the Python dependencies.
+
+**Note:** The dataset download is approximately 894 MB, and PySpark processing may require substantial memory and runtime. The notebook has not yet been independently rerun from a fresh environment.
+
 ## Key Findings
 
 - Gradient Boosted Trees achieved the best overall performance with RMSE 40.49 and R² 0.215.
